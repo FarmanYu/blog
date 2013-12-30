@@ -11,7 +11,7 @@
                 "\\.html?$"            : "html",
                 ".*"                   : "text"                
         },
-        "template" : "phase",
+        "template" : "tactile",
         "title"  : "Farman's Blog",
         "comment"  : "on",
         "friends" : [{
