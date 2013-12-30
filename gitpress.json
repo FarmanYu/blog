@@ -2,6 +2,7 @@
         "docs"      : {
                 "关于我的博客": "README.md",
                 "JavaScript": "posts/JavaScript",
+                "php" : "posts/php",
                 "其他": "posts"
         },        
         "perpage"   : 10,
@@ -15,8 +16,12 @@
         "title"  : "Farman's Blog",
         "comment"  : "on",
         "friends" : [{
-                "name"  : "tuangou",
-                "title" : "tougou",
+                "name"  : "百度团购",
+                "title" : "百度团购",
                 "url"   : "http://tuan.baidu.com/"
+        },{
+                "name"  : "百度旅游",
+                "title" : "百度旅游",
+                "url"   : "http://lvyou.baidu.com/"
         }]
 }
