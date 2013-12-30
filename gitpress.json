@@ -1,6 +1,5 @@
 {
         "docs"      : {
-                "关于我的博客": "README.md",
                 "JavaScript"  : "posts/JavaScript",
                 "php"         : "posts/php",
                 "CSS"         : "posts/css",
