@@ -16,7 +16,7 @@
                 ".*"                   : "text"                
         },
         "template" : "greyshade",
-        "title"  : "FHY's blog",
+        "title"  : "前端小筑",
         "comment" : {"type": "duoshuo", "short_name": "doyoe"},
         "comment"  : "on",
         "friends" : [
