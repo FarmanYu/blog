@@ -16,7 +16,7 @@
                 ".*"                   : "text"                
         },
         "template" : "greyshade",
-        "title"  : "一个前端工程师的博客",
+        "title"  : "FHY's blog",
         "comment" : {"type": "duoshuo", "short_name": "doyoe"},
         "comment"  : "on",
         "friends" : [
