@@ -4,13 +4,14 @@
                 "JavaScript": "posts/JavaScript",
                 "其他": "posts"
         },        
-        "perpage"   : 5,
+        "perpage"   : 10,
         "types"     : {
                 "\\.(md||markdown)$"   : "markdown", 
                 "\\.(js||css||json)$"  : "code",
                 "\\.html?$"            : "html",
                 ".*"                   : "text"                
         },
+        "template" : "slate",
         "title"  : "Farman's Blog",
         "comment"  : "on",
         "friends" : [{
