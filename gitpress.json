@@ -12,16 +12,35 @@
                 "\\.html?$"            : "html",
                 ".*"                   : "text"                
         },
-        "template" : "phase",
-        "title"  : "Farman's Blog",
+        "template" : "greyshade",
+        "title"  : "一个前端工程师的博客",
+        "comment" : {"type": "duoshuo", "short_name": "doyoe"},
         "comment"  : "on",
-        "friends" : [{
-                "name"  : "百度团购",
-                "title" : "百度团购",
-                "url"   : "http://tuan.baidu.com/"
-        },{
-                "name"  : "百度旅游",
-                "title" : "百度旅游",
-                "url"   : "http://lvyou.baidu.com/"
-        }]
+        "friends" : [
+                {
+                "name" : "JerryQu的小站",
+                "title": "屈屈的博客",
+                "url"  : "http://imququ.com"
+                },
+                {
+                "name" : "月影MM",
+                "title": "十年踪迹的博客",
+                "url"  :  "http://blog.silverna.org/"
+                },
+                {
+                "name" : "dh20156",
+                "title": "dh20156踪迹",
+                "url"  :  "http://www.w3cgroup.com/"
+                },
+                {
+                "name" : "奇舞团",
+                "title": "奇舞团官方博客",
+                "url"  : "http://www.75team.com/"
+                },
+                {
+                "name" : "奇舞周刊",
+                "title": "奇舞周刊",
+                "url"  : "http://www.75team.com/weekly/"
+                }
+        ]
 }
