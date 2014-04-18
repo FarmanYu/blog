@@ -2,6 +2,8 @@
         "docs"      : {
                 "JavaScript"  : "posts/JavaScript",
                 "php"         : "posts/php",
+                "python"      : "posts/python",
+                "IOS"         : "posts/IOS",
                 "CSS"         : "posts/css",
                 "HTML"        : "posts/html",
                 "生活随笔"    : "posts/life",
@@ -33,16 +35,6 @@
                 "name" : "dh20156",
                 "title": "dh20156踪迹",
                 "url"  :  "http://www.w3cgroup.com/"
-                },
-                {
-                "name" : "奇舞团",
-                "title": "奇舞团官方博客",
-                "url"  : "http://www.75team.com/"
-                },
-                {
-                "name" : "奇舞周刊",
-                "title": "奇舞周刊",
-                "url"  : "http://www.75team.com/weekly/"
                 }
         ]
 }
