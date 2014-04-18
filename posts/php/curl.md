@@ -1,7 +1,8 @@
 #PHP模拟登录并获取数据
 cURL 是一个功能强大的PHP库，使用PHP的cURL库可以简单和有效地抓取网页并采集内容，设置cookie完成模拟登录网页，curl提供了丰富的函数，开发者可以从PHP手册中获取更多关于cURL信息。本文以模拟登录开源中国(oschina)为例，和大家分享cURL的使用。   
-PHP的curl()在抓取网页的效率方面是比较高的，而且支持多线程，而file_get_contents()效率就要稍低些，当然，使用curl时需要开启下curl扩展。
-*代码实战*
+PHP的curl()在抓取网页的效率方面是比较高的，而且支持多线程，而file_get_contents()效率就要稍低些，当然，使用curl时需要开启下curl扩展。  
+
+*代码实战*    
 先来看登录部分的代码：
 
 		//模拟登录 
@@ -65,14 +66,14 @@ PHP的curl()在抓取网页的效率方面是比较高的，而且支持多线�
 		echo $str; 
 
 运行上述代码后，我们会看到最终获取到登录用户的头像图片。  
-
+  
 *使用总结*  
 1、初始化curl；   
 2、使用curl_setopt设置目标url，和其他选项；  
 3、curl_exec，执行curl；  
 4、执行后，关闭curl；  
 5、输出数据。  
-
+  
 *参考文献*  
 《curl简介及php中的curl》，作者不详，<http://www.2cto.com/kf/201208/147091.html>  
 《使用PHP CURL的POST数据》，作者：Veda，<http://www.nowamagic.net/librarys/veda/detail/124>  
