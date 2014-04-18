@@ -1,45 +1,43 @@
 {
-        "docs"      : {
-                "JavaScript"  : "posts/JavaScript",
-                "php"         : "posts/php",
-                "python"      : "posts/python",
-                "IOS"         : "posts/IOS",
-                "CSS"         : "posts/css",
-                "HTML"        : "posts/html",
-                "生活随笔"    : "posts/life",
-                "关于我"      : "posts/about"
-        },        
-        "perpage"   : 10,
-        "types"     : {
-                "\\.(md||markdown)$"   : "markdown", 
-                "\\.(js||css||json)$"  : "code",
-                "\\.html?$"            : "html",
-                ".*"                   : "text"                
+        "docs": {
+                "JavaScript": "posts/JavaScript",
+                "php": "posts/php",
+                "python": "posts/python",
+                "IOS": "posts/IOS",
+                "CSS": "posts/css",
+                "HTML": "posts/html",
+                "生活随笔": "posts/life",
+                "关于我": "posts/about"
         },
-        "template" : "greyshade",
-        "title"  : "前端小筑",
-        "comment" : {"type": "duoshuo", "short_name": "doyoe"},
-        "comment"  : "on",
-        "friends" : [
-				{
-				"name" : "lcepy",
-				"title": "lcepy的博客",
-				"url" : "http://wen.lcepy.gitpress.org"
-				}
-                {
-                "name" : "JerryQu的小站",
+        "perpage": 10,
+        "types": {
+                "\\.(md||markdown)$": "markdown",
+                "\\.(js||css||json)$": "code",
+                "\\.html?$": "html",
+                ".*": "text"
+        },
+        "template": "greyshade",
+        "title": "前端小筑",
+        "comment": {
+                "type": "duoshuo",
+                "short_name": "doyoe"
+        },
+        "comment": "on",
+        "friends": [{
+                "name": "lcepy",
+                "title": "lcepy的博客",
+                "url": "http://wen.lcepy.gitpress.org"
+        }, {
+                "name": "JerryQu的小站",
                 "title": "屈屈的博客",
-                "url"  : "http://imququ.com"
-                },
-                {
-                "name" : "月影MM",
+                "url": "http://imququ.com"
+        }, {
+                "name": "月影MM",
                 "title": "十年踪迹的博客",
-                "url"  :  "http://blog.silverna.org/"
-                },
-                {
-                "name" : "dh20156",
+                "url": "http://blog.silverna.org/"
+        }, {
+                "name": "dh20156",
                 "title": "dh20156踪迹",
-                "url"  :  "http://www.w3cgroup.com/"
-                }
-        ]
+                "url": "http://www.w3cgroup.com/"
+        }]
 }
