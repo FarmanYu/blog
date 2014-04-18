@@ -21,6 +21,11 @@
         "comment" : {"type": "duoshuo", "short_name": "doyoe"},
         "comment"  : "on",
         "friends" : [
+				{
+				"name" : "lcepy",
+				"title": "lcepy的博客",
+				"url" : "http://wen.lcepy.gitpress.org"
+				}
                 {
                 "name" : "JerryQu的小站",
                 "title": "屈屈的博客",
