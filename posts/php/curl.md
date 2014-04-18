@@ -1,5 +1,5 @@
 #PHP模拟登录并获取数据
-cURL 是一个功能强大的PHP库，使用PHP的cURL库可以简单和有效地抓取网页并采集内容，设置cookie完成模拟登录网页，curl提供了丰富的函数，开发者可以从PHP手册中获取更多关于cURL信息。本文以模拟登录开源中国(oschina)为例，和大家分享cURL的使用。 
+cURL 是一个功能强大的PHP库，使用PHP的cURL库可以简单和有效地抓取网页并采集内容，设置cookie完成模拟登录网页，curl提供了丰富的函数，开发者可以从PHP手册中获取更多关于cURL信息。本文以模拟登录开源中国(oschina)为例，和大家分享cURL的使用。   
 PHP的curl()在抓取网页的效率方面是比较高的，而且支持多线程，而file_get_contents()效率就要稍低些，当然，使用curl时需要开启下curl扩展。
 *代码实战*
 先来看登录部分的代码：
@@ -32,7 +32,7 @@ PHP的curl()在抓取网页的效率方面是比较高的，而且支持多线�
 		    return $rs; 
 		} 
 
-函数get_content()中也是先初始化curl，然后设置相关选项，执行curl，释放资源。其中我们设置CURLOPT_RETURNTRANSFER为1即自动返回信息，而CURLOPT_COOKIEFILE可以读取到登录时保存的cookie信息，最后将页面内容返回。
+函数get_content()中也是先初始化curl，然后设置相关选项，执行curl，释放资源。其中我们设置CURLOPT_RETURNTRANSFER为1即自动返回信息，而CURLOPT_COOKIEFILE可以读取到登录时保存的cookie信息，最后将页面内容返回。  
 我们的最终目的是要获取到模拟登录后的信息，也就是只有正常登录成功后才能获取的有用信息。接下来我们以登录开源中国的移动版为例，看看如何抓取到登录成功后的信息。
 
 		//设置post的数据 
@@ -64,18 +64,18 @@ PHP的curl()在抓取网页的效率方面是比较高的，而且支持多线�
 		//输出内容 
 		echo $str; 
 
-运行上述代码后，我们会看到最终获取到登录用户的头像图片。
+运行上述代码后，我们会看到最终获取到登录用户的头像图片。  
 
-*使用总结*
-1、初始化curl；
-2、使用curl_setopt设置目标url，和其他选项；
-3、curl_exec，执行curl；
-4、执行后，关闭curl；
-5、输出数据。
+*使用总结*  
+1、初始化curl；   
+2、使用curl_setopt设置目标url，和其他选项；  
+3、curl_exec，执行curl；  
+4、执行后，关闭curl；  
+5、输出数据。  
 
-*参考文献*
-《curl简介及php中的curl》，作者不详，<http://www.2cto.com/kf/201208/147091.html>
-《使用PHP CURL的POST数据》，作者：Veda，<http://www.nowamagic.net/librarys/veda/detail/124>
+*参考文献*  
+《curl简介及php中的curl》，作者不详，<http://www.2cto.com/kf/201208/147091.html>  
+《使用PHP CURL的POST数据》，作者：Veda，<http://www.nowamagic.net/librarys/veda/detail/124>  
 《php 使用curl模拟登录discuz以及模拟发帖》，作者：tianxin，<http://www.cnblogs.com/tianxin2001x/archive/2009/10/28/1591311.html>
 
 转载自<http://www.helloweba.com/view-blog-253.html>
