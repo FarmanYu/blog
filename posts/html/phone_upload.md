@@ -1,14 +1,12 @@
 #手机上传图片问题小结
 早上碰到一个手机上打不开上传控件的问题，具体表现为，android无法打开文件上传控件而ios正常，之前的上传方案是:
 
-	```html
 	<form style="display:none">
 		<input type="file" id="upload">
 	</form>
 
 通过点击页面上的Element#elem，trigger#upload的click事件来调起控件
 	
-	```javascript
 	$("#elem").click(function(){
 		 $("#upload").trigger("click");
 	})
@@ -18,7 +16,6 @@
 ##模拟环境查原因
 构造静态页
 
-	```html
 	<form>
 		<input type="file" id="upload">
 	</form>
@@ -26,7 +23,6 @@
 使用问题android打开，在原生的android浏览器中，可以打开文件控件，否定第二个原因.
 增加js，添加jquery，绑定事件
 
-	```javascript
 	$("#elem").click(function(){
 		 $("#upload").trigger("click");
 	})
@@ -37,7 +33,6 @@ android手机浏览器应该是在display:none的element上做了不同于PC的�
 ##解决方案
 将form设置不可见，但是不能设置display:none
 
-		```html
 		<form style="visibility:hidden;width:0;height:0;overflow:hidden">
 			<input type="file" id="upload">
 		</form>
