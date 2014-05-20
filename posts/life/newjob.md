@@ -8,5 +8,5 @@
 今年需要给自己设定一些目标
 * 做好一个阅读器(nodejs web版&node-webkit)
 * 把自己的底子打的更扎实.(正则，设计模式等)
-* 未来出路(ios object-C for client)
+* 未来出路(ios object-C for client / a game with cocos2d)
 * 记录自己成长的点滴.(写博客)
